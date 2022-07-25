@@ -1,7 +1,7 @@
 {
   "name": "chakra-todo-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.2.4",
     "@emotion/react": "^11.0.0",
@@ -38,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^3.6.0"
   }
 }
