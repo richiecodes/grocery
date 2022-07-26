@@ -17,7 +17,7 @@ export default function DeleteTask({ id }) {
     setLoading(false);
 
     toast({
-      title: error || 'Task Deleted!',
+      title: error || 'Item Deleted!',
       position: 'top',
       status: error ? 'error' : 'success',
       duration: 2000,

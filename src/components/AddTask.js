@@ -22,7 +22,7 @@ export default function AddTask() {
     setText('');
 
     toast({
-      title: error || 'Task Added!',
+      title: error || 'Item Added!',
       position: 'top',
       status: error ? 'error' : 'success',
       duration: 2000,
